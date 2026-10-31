@@ -1,0 +1,10 @@
+.build/
+build/
+.swiftpm/
+tools/.venv/
+__pycache__/
+*.xcodeproj/xcuserdata/
+.DS_Store
+
+# Scraped third-party page (Reference Audio Analyzer); the extracted CSVs are kept.
+data/raa/*.html

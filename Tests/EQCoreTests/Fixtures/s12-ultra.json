@@ -1,0 +1,60 @@
+{
+  "name": "LETSHUOER S12 Ultra -> Harman In-Ear 2019",
+  "source": {
+    "measurement": "Reference Audio Analyzer, SIEC rig, Summary (R+L), report id 6146",
+    "target": "Harman In-Ear 2019 {Correction 711/SIEC + Smoothing} (RAA)",
+    "generator": "AutoEq 4.1.2, tools/generate_profile.py",
+    "optimized_at_fs": 48000
+  },
+  "defaultStrength": 0.55,
+  "preampDb": -7.74,
+  "filters": [
+    {
+      "type": "peaking",
+      "frequency": 58.3,
+      "q": 0.811,
+      "gain": 2.37
+    },
+    {
+      "type": "lowShelf",
+      "frequency": 105.0,
+      "q": 0.7,
+      "gain": -4.53
+    },
+    {
+      "type": "peaking",
+      "frequency": 202.0,
+      "q": 0.664,
+      "gain": -3.2
+    },
+    {
+      "type": "peaking",
+      "frequency": 1820.9,
+      "q": 1.524,
+      "gain": -2.92
+    },
+    {
+      "type": "peaking",
+      "frequency": 2877.2,
+      "q": 2.201,
+      "gain": 2.62
+    },
+    {
+      "type": "peaking",
+      "frequency": 3632.3,
+      "q": 1.939,
+      "gain": 6.0
+    },
+    {
+      "type": "peaking",
+      "frequency": 8000.0,
+      "q": 0.994,
+      "gain": 2.23
+    }
+  ],
+  "fit": {
+    "rmsErrorDb_20Hz_10kHz": 0.22,
+    "maxAbsErrorDb_20Hz_10kHz": 0.752,
+    "maxBoostDb": 7.24
+  }
+}
